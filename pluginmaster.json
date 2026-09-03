@@ -40,11 +40,11 @@
       "ultimate"
     ],
     "DalamudApiLevel": 15,
-    "IsHide": true,
+    "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 0,
+    "LastUpdate": 1788397942,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "",
-    "DownloadLinkUpdate": ""
+    "DownloadLinkInstall": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.0.0/latest.zip"
   }
 ]
