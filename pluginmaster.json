@@ -7,6 +7,7 @@
     "InternalName": "XIVRaidToolsPlugin",
     "AssemblyVersion": "0.1.11.0",
     "RepoUrl": "https://github.com/RoarkGit/XIV-Raid-Tools",
+    "IconUrl": "https://raw.githubusercontent.com/RoarkGit/XIV-Raid-Tools/main/XIVRaidToolsPlugin/images/icon.png",
     "ApplicableVersion": "any",
     "Tags": [
       "raid",
@@ -31,6 +32,11 @@
     "InternalName": "XIVMit",
     "AssemblyVersion": "0.1.0.0",
     "RepoUrl": "https://github.com/RoarkGit/XIVMit-Dalamud",
+    "IconUrl": "https://raw.githubusercontent.com/RoarkGit/XIVMit-Dalamud/main/images/icon.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/RoarkGit/XIVMit-Dalamud/main/images/screenshot-full.png",
+      "https://raw.githubusercontent.com/RoarkGit/XIVMit-Dalamud/main/images/screenshot-overlay.png"
+    ],
     "ApplicableVersion": "any",
     "Tags": [
       "raid",
