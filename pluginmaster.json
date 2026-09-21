@@ -30,7 +30,7 @@
     "Punchline": "In-game view of your XIVMit mitigation plan.",
     "Description": "Loads a plan from xivmit.app and shows your upcoming mitigations on a live fight clock. Starts automatically on combat and stays synced from boss casts and phase transitions. Use /xivmit to open.",
     "InternalName": "XIVMit",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.1.2.0",
     "RepoUrl": "https://github.com/RoarkGit/XIVMit-Dalamud",
     "IconUrl": "https://raw.githubusercontent.com/RoarkGit/XIVMit-Dalamud/main/images/icon.png",
     "ImageUrls": [
@@ -48,9 +48,9 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1788397942,
+    "LastUpdate": 1789950516,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.0.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.2.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.2.0/latest.zip"
   }
 ]
