@@ -52,5 +52,31 @@
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.3.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/RoarkGit/XIVMit-Dalamud/releases/download/v0.1.3.0/latest.zip"
+  },
+  {
+    "Author": "RoarkGit",
+    "Name": "AutoTitle",
+    "Punchline": "Automatically change your title based on job, gearset, zone, or duty.",
+    "Description": "Set a default title plus rules that switch it when you change job or role, swap gearsets, enter a zone, or queue into a specific duty. Alts can have their own rules.",
+    "InternalName": "AutoTitle",
+    "AssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/RoarkGit/AutoTitle",
+    "IconUrl": "https://raw.githubusercontent.com/RoarkGit/AutoTitle/main/images/icon.png",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "title",
+      "automation",
+      "job",
+      "gearset",
+      "duty",
+      "quality of life"
+    ],
+    "DalamudApiLevel": 15,
+    "IsHide": true,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1792453520,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.1.0/latest.zip"
   }
 ]
