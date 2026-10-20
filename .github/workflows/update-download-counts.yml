@@ -1,0 +1,43 @@
+name: Update Download Counts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The plugins' release workflows also push here. If one lands mid-run the push is rejected,
+      # so start over from the new main and recount rather than merge.
+      - name: Update and push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 scripts/update_download_counts.py pluginmaster.json
+
+            if git diff --quiet; then
+              echo "No changes."
+              exit 0
+            fi
+
+            git commit -qam "Update download counts"
+            if git push -q origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected, retrying."
+          done
+          exit 1
