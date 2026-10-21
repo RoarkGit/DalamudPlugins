@@ -59,7 +59,7 @@
     "Punchline": "Automatically change your title based on job, gearset, zone, or duty.",
     "Description": "Set a default title plus rules that switch it when you change job or role, swap gearsets, enter a zone, or queue into a specific duty. Alts can have their own rules.",
     "InternalName": "AutoTitle",
-    "AssemblyVersion": "0.2.0.0",
+    "AssemblyVersion": "0.3.0.0",
     "RepoUrl": "https://github.com/RoarkGit/AutoTitle",
     "IconUrl": "https://raw.githubusercontent.com/RoarkGit/AutoTitle/main/images/icon.png",
     "ApplicableVersion": "any",
@@ -74,9 +74,9 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1792554677,
+    "LastUpdate": 1792620500,
     "DownloadCount": 6,
-    "DownloadLinkInstall": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.2.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.3.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RoarkGit/AutoTitle/releases/download/v0.3.0/latest.zip"
   }
 ]
